@@ -1,0 +1,3 @@
+#populate authentication related data
+insert into user ( id , password , username ) values(1, '4efe081594ce25ee4efd9f7067f7f678a347bccf2de201f3adf2a3eb544850b465b4e51cdc3fcdde', 'rod' );
+insert into role (id, role, user_id)  values (1, 'ROLE_USER', 1)
