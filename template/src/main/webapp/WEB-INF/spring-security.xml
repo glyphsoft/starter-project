@@ -44,13 +44,13 @@
 
 	</http>
 
-	<!-- <authentication-manager alias="authenticationManager"> -->
-	<!-- <authentication-provider> -->
-	<!-- <user-service> -->
-	<!-- <user name="guest" authorities="ROLE_USER" password="guest" /> -->
-	<!-- </user-service> -->
-	<!-- </authentication-provider> -->
-	<!-- </authentication-manager> -->
+	<authentication-manager alias="authenticationManager">
+	<authentication-provider>
+	<user-service>
+	<user name="guest" authorities="ROLE_USER" password="guest" />
+	</user-service>
+	</authentication-provider>
+	</authentication-manager>
 
 	<!-- <authentication-manager alias="authenticationManager"> -->
 	<!-- <authentication-provider user-service-ref="userService"> -->
@@ -58,19 +58,19 @@
 	<!-- </authentication-manager> -->
 
 
-	<beans:bean id="passwordEncoder"
-		class="org.springframework.security.crypto.password.StandardPasswordEncoder" />
+<!-- 	<beans:bean id="passwordEncoder" -->
+<!-- 		class="org.springframework.security.crypto.password.StandardPasswordEncoder" /> -->
 
 
-	<beans:bean id="daoAuthenticationProvider"
-		class="org.springframework.security.authentication.dao.DaoAuthenticationProvider">
-		<beans:property name="userDetailsService" ref="userDetailsService" />
-		<beans:property name="passwordEncoder" ref="passwordEncoder" />
-	</beans:bean>
+<!-- 	<beans:bean id="daoAuthenticationProvider" -->
+<!-- 		class="org.springframework.security.authentication.dao.DaoAuthenticationProvider"> -->
+<!-- 		<beans:property name="userDetailsService" ref="userDetailsService" /> -->
+<!-- 		<beans:property name="passwordEncoder" ref="passwordEncoder" /> -->
+<!-- 	</beans:bean> -->
 
-	<authentication-manager alias="authenticationManager">
-		<authentication-provider ref="daoAuthenticationProvider" />
-	</authentication-manager>
+<!-- 	<authentication-manager alias="authenticationManager"> -->
+<!-- 		<authentication-provider ref="daoAuthenticationProvider" /> -->
+<!-- 	</authentication-manager> -->
 
 	<!-- Usernames/Passwords are rod/koala dianne/emu scott/wombat peter/opal -->
 
