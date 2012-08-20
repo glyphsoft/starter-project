@@ -18,7 +18,7 @@
 		<servlet-name>DispatcherServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-
+	
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring-security.xml, /WEB-INF/spring-persistence.xml</param-value>
