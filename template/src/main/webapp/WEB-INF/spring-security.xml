@@ -21,6 +21,11 @@
 	<!-- in HttpElement to "affirmativeBased" -->
 	<!-- 2. Add remember me element -->
 	<!-- "<remember-me key="app"/>" -->
+	
+	<http pattern="/stylesheets/**" security="none" />
+	<http pattern="/javascripts/**" security="none" />
+	<http pattern="/images/**" security="none" />
+	
 	<http auto-config="true">
 
 		<intercept-url pattern="/login.do" access="IS_AUTHENTICATED_ANONYMOUSLY" />
