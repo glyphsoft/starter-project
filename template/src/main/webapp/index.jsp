@@ -6,15 +6,14 @@
 <script src="javascripts/modernizr.foundation.js"></script>
 <script src="javascripts/foundation.min.js"></script>
 <script src="javascripts/app.js"></script>
-
 </head>
 <body>
-	<div class="row">
+	<div class="row" style="background: white; width: 100%">
 		<div class="twelve columns">
 			<jsp:include page="/WEB-INF/layout/header.jsp"></jsp:include>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" style="background: white; width: 100%">
 		<div class="twelve columns">
 			<div class="row">
 				<div class="two columns ">
@@ -25,7 +24,7 @@
 			</div>
 			<div class="row">
 				<jsp:include page="/WEB-INF/layout/menu.jsp"></jsp:include>
-				<div class="eleven columns" style="background: red; height: 100%">
+				<div class="eleven columns" style="background: white; height: 100%">
 					<h1>Home</h1>
 				</div>
 			</div>

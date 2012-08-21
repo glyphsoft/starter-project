@@ -11,4 +11,9 @@ public class UserRegistrationFormController {
 	public String registerUser(){
 		return "register";
 	}
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/saveUser")
+	public String saveUser(){
+		return "register";
+	}
 }

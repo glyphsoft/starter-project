@@ -9,12 +9,12 @@
 
 </head>
 <body>
-	<div class="row">
+	<div class="row" style="background: white; width: 100%">
 		<div class="twelve columns">
 			<tiles:insertAttribute name="header" />
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" style="background: white; width: 100%">
 		<div class="twelve columns">
 			<div class="row">
 				<div class="two columns ">
@@ -25,7 +25,7 @@
 			</div>
 			<div class="row">
 				<tiles:insertAttribute name="menu" />
-				<div class="eleven columns" style="background: red; height: 100%">
+				<div class="eleven columns" style="background: white; height: 100%">
 					<tiles:insertAttribute name="body" />
 				</div>
 			</div>
