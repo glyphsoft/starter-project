@@ -125,11 +125,17 @@
 			<version>3.12.1.GA</version>
 		</dependency>
 
-		<!-- Freemaker -->
+		<!-- Tiles -->
 		<dependency>
-			<groupId>org.freemarker</groupId>
-			<artifactId>freemarker</artifactId>
-			<version>2.3.14</version>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+			<version>2.2.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-core</artifactId>
+			<version>2.2.2</version>
 		</dependency>
 
 	</dependencies>

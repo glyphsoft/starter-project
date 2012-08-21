@@ -11,7 +11,7 @@
 <body>
 	<div class="row">
 		<div class="twelve columns">
-			<jsp:include page="/WEB-INF/layout/header.jsp"></jsp:include>
+			<tiles:insertAttribute name="header" />
 		</div>
 	</div>
 	<div class="row">
@@ -24,9 +24,9 @@
 				</div>
 			</div>
 			<div class="row">
-				<jsp:include page="/WEB-INF/layout/menu.jsp"></jsp:include>
+				<tiles:insertAttribute name="menu" />
 				<div class="eleven columns" style="background: red; height: 100%">
-					<h1>Home</h1>
+					<tiles:insertAttribute name="body" />
 				</div>
 			</div>
 		</div>
