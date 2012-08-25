@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/layout/directive.jsp" %>
 <c:url value="/j_spring_security_logout" var="logoutUrl" />
 <c:url value="/register" var="register" />
-<div class="one columns " style="background: #E6E6E6; text-align: center ">
+<div class="one columns " style="background: #282A30; text-align: center; height: 100%">
 	<div class="row">
 		<div class="one columns" style="margin-left: auto; margin-right: auto; width: 7em">
 			<a href="/template">

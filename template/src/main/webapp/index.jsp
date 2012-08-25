@@ -8,7 +8,7 @@
 <script src="javascripts/app.js"></script>
 </head>
 <body>
-	<div class="row" style="background: white; width: 100%">
+	<div class="row" style="background: #16181E; width: 100%">
 		<div class="twelve columns">
 			<jsp:include page="/WEB-INF/layout/header.jsp"></jsp:include>
 		</div>
@@ -16,15 +16,17 @@
 	<div class="row" style="background: white; width: 100%">
 		<div class="twelve columns">
 			<div class="row">
-				<div class="two columns ">
+				<div class="two columns " style="background: #294080;">
+					<h5><font color="white">Name of User</font></h5>
 				</div>
-				<div class="eleven columns" style="background: #585858; border-bottom-style:solid; border-color: #F4C20C">
+				<!-- <div class="ten columns" style="background: #36679F; border-bottom-style:solid; border-color: #F4C20C"> -->
+				<div class="ten columns" style="background: #36679F;">
 					<h5><font color="white">Title Page</font></h5>
 				</div>
 			</div>
 			<div class="row">
 				<jsp:include page="/WEB-INF/layout/menu.jsp"></jsp:include>
-				<div class="eleven columns" style="background: white; height: 100%">
+				<div class="eleven columns" style="background: #E5E6E8; height: 100%">
 					<h1>Home</h1>
 				</div>
 			</div>

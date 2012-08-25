@@ -1,1 +1,1 @@
-<h6>Company Name</h6>
+<h6><font color="white">Company Name</font></h6>
