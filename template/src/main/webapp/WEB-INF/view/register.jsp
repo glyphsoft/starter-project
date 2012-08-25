@@ -2,7 +2,7 @@
 <form action="register" method="post" class="custom">
 
 	<div class="row" style="padding-top:5px">
-		<div class="three columns">
+		<div class="eleven columns centered">
 
 			<label>Name:</label>
 			<input type="text" name="name" placeholder="Full Name"/> 
